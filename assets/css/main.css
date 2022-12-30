@@ -2633,6 +2633,18 @@ ul.feature-icons2 {
 		padding-top: 2.25em;
 	}
 
+	.features article > iframe {
+		width: 100%;
+	}
+
+	.features article > h3 {
+		margin-bottom: -7px;
+	}
+
+	.features article > h5 {
+		text-align: right;
+	}
+
 		.features article:first-child {
 			border-top: 0;
 			padding-top: 0;
