@@ -2197,11 +2197,15 @@ input, select, textarea {
 				border-radius: 100%;
 				display: block;
 				width: 100%;
+				
 			}
+
+		/* VERY IMPORTANT FOR WHEN CHANGING AVATAR */
+		/* TO KEEP ALIGNED */
 
 		.image.main {
 			display: block;
-			height: 20em;
+			height: 21.75em;
 			border-radius: 0;
 		}
 
@@ -2663,6 +2667,7 @@ ul.feature-icons2 {
 			}
 
 		.features article .inner {
+			
 			display: inline-block;
 			vertical-align: middle;
 			width: 50%;
