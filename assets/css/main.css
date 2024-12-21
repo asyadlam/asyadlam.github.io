@@ -77,7 +77,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #000000; /* THIS ONE FOR BEHIND PAGE */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -92,8 +92,8 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: rgb(0, 0, 0);
-		font-family: "Lato", sans-serif;
+		color: #000000; /* THIS ONE FOR ALL MAIN PARAGRAPHS */
+		font-family: "Times New Roman", sans-serif; /* CHANGE ALL TEXT FONTS */
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -115,7 +115,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #777;
+		color: #000000; /* THIS ONE FOR SOME SMALLER TITLES */
 		font-weight: 700;
 	}
 
@@ -128,7 +128,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777;
+		color: #000000; /* THIS ONE FOR SOME OF BIGGER TITLES */
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -1779,13 +1779,13 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #000000;
+		color: #000000; /* THIS ONE FOR THE BIG BIG TITLE */
 		font-size: 3.0em;
 		font-style: initial;
 	}
 
 		header.major h2 + p {
-			color: #777;
+			color: #AD6A41; /* THIS ONE FOR THE SMALLER BIG TITLE */
 			font-size: 1.75em;
 			font-weight: 700;
 			margin-top: -0.75em;
@@ -2401,9 +2401,9 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #000000;
+				background: #AD6A41; /* THIS ONE FOR OUTSIDE ICONS FOR MY SKILLS SECTION */
 				border-radius: 100%;
-				color: #ffffff;
+				color: #000000; /* THIS ONE FOR INSIDE ICONS FOR MY SKILLS SECTION */
 				display: block;
 				height: 2.5em;
 				left: 0;
@@ -2445,7 +2445,7 @@ ul.feature-icons2 {
 		}
 
 		ul.feature-icons2 li:before {
-			color: #000000;
+			color: #AD6A41; /* THIS ONE FOR CONTACT ME ICONS */
 			display: block;
 			height: 2.5em;
 			left: 0;
@@ -2491,10 +2491,10 @@ ul.feature-icons2 {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #989898;
+		background-color: #AD6A41; /* THIS ONE FOR ALL THE BUTTONS BACKGROUND */
 		border-radius: 5px;
 		border: 0;
-		color: #ffffff !important;
+		color: #000000 !important; /* THIS ONE FOR ALL THE WRITING OF BUTTONS */
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 700;
@@ -2510,15 +2510,15 @@ ul.feature-icons2 {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background-color: #a5a5a5;
-			color: #ffffff !important;
+			background-color: #000000; /* THIS ONE FOR ALL THE BACKGROUND OF BUTTONS AFTER HOVER */
+			color: #AD6A41 !important; /* THIS ONE FOR ALL THE WRITING OF BUTTONS AFTER HOVER */
 		}
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: #8b8b8b;
+			background-color: #8b8b8b; /* THIS ONE FOR ALL THE BUTTONS AFTER CLICK */
 		}
 
 		input[type="submit"].icon,
@@ -2626,7 +2626,7 @@ ul.feature-icons2 {
 /* Features */
 
 	.features article {
-		border-top: solid 3px #a79e9e;
+		border-top: solid 3px #AD6A41; /* THIS ONE FOR LINES BETWEEN SECTIONS */
 		margin-bottom: 2.25em;
 		padding-top: 2.25em;
 	}
@@ -2686,7 +2686,7 @@ ul.feature-icons2 {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #a7a0a0;
+		background: #a7a0a0; /* THIS ONE FOR BACKGROUND OF COLUMN WITH ME */
 		color: #726c6c;
 		height: 100%;
 		overflow-y: auto;
@@ -2702,7 +2702,15 @@ ul.feature-icons2 {
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #ffffff;
+				color: #000000; /* THIS ONE FOR MY NAME IN COLUMN */
+				/*
+				font-weight: bold;
+				text-shadow: 
+    			-1px -1px 0 #AD6A41,
+    			1px -1px 0 #AD6A41,  
+    			-1px 1px 0 #AD6A41,  
+    			1px 1px 0 #AD6A41; 
+				*/
 			}
 
 		#header header p {
@@ -2714,7 +2722,7 @@ ul.feature-icons2 {
 		}
 
 			#header a:hover {
-				color: #ffffff !important;
+				color: #AD6A41 !important; /* THIS ONE FOR COLUMN HOVER TEXT & ICONS */
 			}
 
 		#header > header {
@@ -2737,7 +2745,7 @@ ul.feature-icons2 {
 			}
 
 			#header > header p {
-				color: #ffffff;
+				color: #000000; /* THIS ONE FOR TEXT UNDER MY NAME IN COLUMN */
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2758,7 +2766,7 @@ ul.feature-icons2 {
 			}
 
 				#header > footer .icons li a {
-					color: #745c5c;
+					color:  #000000; /* THIS ONE FOR ICONS */
 				}
 
 		#header > nav {
@@ -2775,7 +2783,7 @@ ul.feature-icons2 {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #a7a0a0;
+					border-top: solid 2px #a7a0a0; /* THIS ONE FOR THE SECTION BARS IN COLUMN */
 					display: block;
 					padding: 0;
 				}
@@ -2786,15 +2794,15 @@ ul.feature-icons2 {
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #ffffff !important;
+						color: #000000 !important; /* THIS ONE FOR THE TEXT IN COLUMN */
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
 					}
 
 						#header > nav ul li a.active {
-							background: #fff;
-							color: #000000 !important;
+							background:  #a7a0a0;
+							color: #AD6A41 !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -2804,14 +2812,14 @@ ul.feature-icons2 {
 /* Wrapper */
 
 	#wrapper {
-		background: rgb(216, 211, 211);
+		background: rgb(216, 211, 211); /* THIS ONE FOR THE GENERAL BACKGROUND */
 		padding-right: 23em;
 	}
 
 /* Main */
 
 	#main > section {
-		border-top: solid 6px rgb(216, 211, 211);
+		border-top: solid 6px rgb(216, 211, 211); /* THIS ONE FOR THE GENERAL SECTION SEPARATION */
 	}
 
 		#main > section > .container {
@@ -2825,11 +2833,11 @@ ul.feature-icons2 {
 /* Footer */
 
 	#footer {
-		background: #fafafa;
+		background: #000000; /* THIS ONE FOR THE FOOTER BACKGROUND */
 		border-top: 0;
-		color: #c0c0c0;
+		color: #AD6A41;
 		overflow: hidden;
-		padding: 4em 0 2em 0;
+		padding: 1.6em 0 0em 0;
 	}
 
 		#footer .copyright {
@@ -2839,7 +2847,7 @@ ul.feature-icons2 {
 		}
 
 			#footer .copyright li {
-				border-left: solid 1px #d4d4d4;
+				border-left: solid 1px #AD6A41;
 				display: inline-block;
 				font-size: 0.8em;
 				margin-left: 1em;
@@ -3016,13 +3024,13 @@ ul.feature-icons2 {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #222;
+				background: #AD6A41; /* THIS ONE FOR THE BAR AT THE TOP */
 				color: #fff;
 				min-width: 320px;
 			}
 
 				#titleBar .title {
-					color: #fff;
+					color: #000000;
 					display: block;
 					font-weight: 700;
 					height: 44px;
@@ -3062,7 +3070,7 @@ ul.feature-icons2 {
 					}
 
 					#titleBar .toggle:before {
-						background: #000000;
+						background: #000000; /* THIS ONE FOR THE MENU TOGGLE AT TOP */
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
