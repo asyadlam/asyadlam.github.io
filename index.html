@@ -111,6 +111,8 @@
 												<p>This was a project that was done throughout an entire semester where we ended up with a multithreading approach to image processing with a server implementation.
 													Essentially this is a server implementation designed to process client requests for image processing in First In, First Out (FIFO) order. The server binds to the 
 													specified port number provided as a parameter upon launch. It launches a secondary thread to process incoming requests and allows to specify a maximum queue size.
+													The homeworks consisted in improving and modifying a very basic system by: changing the sorting of the queues, adding threads, ensuring mutual exclusion and correct
+													interleaving as well as handling all the rejected requests versus the accepted ones.
 												</p>
 											</div>
 											<p>
@@ -124,7 +126,8 @@
 												<br />
 												<b>Challenges Encountered:</b>
 												<br />
-												Soooo many, TOO many... The most recurrent ones were issues with my server port, which sometimes would just not terminate and loop indefinitely. It happened quite a few times where I realized I had to literally use killall -v "name of file" in order to get rid of it.
+												Many... The most recurrent ones were issues with my server port, which sometimes would just not terminate and loop indefinitely. It happened quite a few times where I realized I had to literally use killall -v "name of file" in order to get rid of it.
+												Also had to deal with a lot of segmentation faults and had to figure out how to fix them.
 											</p>
 										</article>
 										<article>
